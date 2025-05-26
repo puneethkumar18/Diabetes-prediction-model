@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
-#pipe = joblib.load('diabetes.joblib')
+
+pipe = joblib.load('diabetes.joblib')
 
 st.title('Diabetes Disease Prediction')
 
